@@ -1,0 +1,14 @@
+{
+  "name": "TFR Management",
+  "version": "2.0.0",
+  "description": "Bot for TFR Management.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^17.4.2"
+  }
+}

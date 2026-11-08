@@ -1,0 +1,53 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 10,
+      "content": "{user} {support}"
+    },
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564005368437407804/HCSO_Support.png?ex=6adfb101&is=6ade5f81&hm=d3dfcf32ee79557627e2a04617415e52104c23083bdd0601ad1589f0cde4abba&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "Thank you for opening up a support ticket. While we wait for you to connect with one of our support members. Please go ahead and state your concern(s). For any reporting of a Florida Department of Transportation Employee please go to the Florida Department Hub via the main server.\n\n**Useful Information**\n{Roblox}\n{Robloxid}\n{robloxurl}\n{supportid}"
+        },
+        {
+          "type": 1,
+          "components": [
+            { "type": 2, "style": 3, "label": "Claim", "custom_id": "ticket:claim" },
+            { "type": 2, "style": 4, "label": "Close", "custom_id": "ticket:close" }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564006727135924354/z8zyStIfmOEAQAAAABJRU5ErkJggg.png?ex=6adfb245&is=6ade60c5&hm=521a33a4c3b5606e881c76d2c76b4fae7d8442099950070010a4fa83405fa76e&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

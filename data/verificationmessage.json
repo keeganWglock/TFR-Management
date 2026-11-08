@@ -1,0 +1,54 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1568683336883241140/1569092942918848522/TFR_Verify.png?ex=6af2332d&is=6af0e1ad&hm=e4ceb6e4e7cbdcb8bca9cf2bcfd940b6491a44e14828b66d4b577460227dd85f&=&format=webp&quality=lossless&width=512&height=154"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "Link your Roblox account to access **Tampa Fire and Rescue**. Click the button below and complete the secure verification process through Dock. If any issues occur please speak to a support member."
+        },
+        {
+          "type": 9,
+          "components": [
+            { "type": 10, "content": "Verify using the button here:" }
+          ],
+          "accessory": {
+            "type": 2,
+            "style": 2,
+            "label": "Begin Verification",
+            "custom_id": "verify1:begin"
+          }
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665349698621501/TFR_Footer.png?ex=6af1f673&is=6af0a4f3&hm=4bdd638531263d59fa3bc6883f651d6a2222ab59b6840fd669dd3658dd8a4c58&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564003668188070070/Fm2XK4GUu51JrnYK5kge9list1o4ff4ahjyj3J0h8AAAAAElFTkSuQmCC.png?ex=6adfaf6c&is=6ade5dec&hm=e822e1a5b37b4e4f639cbdd4ab9d8ed10ec7fe738db83b405165d517b85f7313&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "# Information\nHere is listed some of the basic information for Hillsbourough County Sheriff's office. The HCSO code for anchorCAD is **\"HCSO\"**, the roster, and how to request to get on the roster. To request to be on the roster please click on the button \"request\"."
+        },
+        {
+          "type": 1,
+          "components": [
+            { "type": 2, "style": 5, "label": "Roster", "url": "https://docs.google.com/spreadsheets/d/1-UihzOm57pAMef4VKL9synKKSdWwDsoUwrWHnYRxjEE/edit?usp=drivesdk" }
+          ]
+        },
+        {
+          "type": 1,
+          "components": [
+            { "type": 2, "style": 5, "label": "Documents", "url": "https://docs.google.com/document/d/1ho9_CeLGrgiPmzR11CaITsL8IiIh0Xkf4Pw2oaoH2j0/edit?usp=drivesdk" }
+          ]
+        },
+        {
+          "type": 1,
+          "components": [
+            { "type": 2, "style": 5, "label": "AnchorCad", "url": "https://anchr.gg/join?communityid=vcfsrp" }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564006727135924354/z8zyStIfmOEAQAAAABJRU5ErkJggg.png?ex=6adfb245&is=6ade60c5&hm=521a33a4c3b5606e881c76d2c76b4fae7d8442099950070010a4fa83405fa76e&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

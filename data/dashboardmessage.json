@@ -1,0 +1,68 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665351279869962/TFR_Bulletin.png?ex=6af0a4f4&is=6aef5374&hm=c7b9ee11a7f053e787df418d47ac236cf058145811964fe5f3afb0af79c397ab&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "# Welcome to the Tampa Fire & Rescue\nThe Tampa Fire Rescue Department is the agency that provides fire protection and emergency medical services within the city of Tampa, Florida, United States. The department is also responsible for the handling of hazardous materials, aircraft rescue at the city's Tampa International Airport, and marine firefighting."
+        },
+        {
+          "type": 14
+        },
+        {
+          "type": 10,
+          "content": ":paperclip: **Important Links**\n- **[Database](https://docs.google.com/spreadsheets/d/1JO8lto335dAjTRjg_td1AUcGl7jAgCWs9UiDTw-dFQ4/edit?usp=sharing)**"
+        },
+        {
+          "type": 14
+        },
+        {
+          "type": 10,
+          "content": "# 🚒 • TAMPA FIRE & RESCUE RIDE ALONG PROGRAM\nThe Tampa Fire & Rescue Ride Along Program allows approved participants to observe the daily operations of Tampa Fire & Rescue personnel and gain a better understanding of the responsibilities, professionalism, and duties of emergency services personnel."
+        },
+        {
+          "type": 1,
+          "components": [
+            {
+              "type": 2,
+              "style": 5,
+              "label": "Ride Along Consent Form",
+              "emoji": {
+                "id": "1564105669076979823",
+                "name": "TFR",
+                "animated": false
+              },
+              "url": "https://docs.google.com/forms/d/e/1FAIpQLSf0oQq05JphmGHKEuZ-Cu-5__f1PGf297QT15Z825Alsrn-Nw/viewform?usp=header"
+            }
+          ]
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665349698621501/TFR_Footer.png?ex=6af0a4f3&is=6aef5373&hm=00d5618d62cec92637ffb121887a9faff5f6686d0497b6e56573959254531c07&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

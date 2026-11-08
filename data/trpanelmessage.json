@@ -1,0 +1,54 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1568683336883241140/1569098156757622815/TFR_Trainings.png?ex=6af23809&is=6af0e689&hm=13a756e842db42a61e62ad482be848e0dc49f350967b8fd99655621603df8074&=&format=webp&quality=lossless&width=512&height=154"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "# Training Requests\nBelow there will be a button to submit a request for your training. This will only be sent to the Field Training Officers, training you. It will ask basic questions like, the preferred day/date of your training, time, and any notes. We cant wait to see you out in that field!"
+        },
+        {
+          "type": 9,
+          "components": [
+            { "type": 10, "content": "Request a training using the button here:" }
+          ],
+          "accessory": {
+            "type": 2,
+            "style": 1,
+            "label": "Request Training",
+            "custom_id": "tr:open"
+          }
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665349698621501/TFR_Footer.png?ex=6af1f673&is=6af0a4f3&hm=4bdd638531263d59fa3bc6883f651d6a2222ab59b6840fd669dd3658dd8a4c58&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

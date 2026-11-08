@@ -1,0 +1,32 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 10,
+      "content": "<@&1563753564067602530>"
+    },
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564013360155201657/HCSO_RR.png?ex=6adfb873&is=6ade66f3&hm=9d5b6404758df33b715464b71fe13df55c7ce914353f63ee6ae49ba6e899a650&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "# Roster Request\n{user}\n**Discord Id:** {id}\n**Roblox Username:** {roblox}\n**Callsign:** {callsign}\n**Rank:** {rank}\n**Timezone: **{timezone}"
+        }
+      ]
+    }
+  ]
+}

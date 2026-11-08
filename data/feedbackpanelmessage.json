@@ -1,0 +1,58 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1568683336883241140/1569091607410774196/TFR_Feedback.png?ex=6af231ef&is=6af0e06f&hm=9709830360c05f10b8bca80fd18720f2089ade4422b0484ba623ea2a2b2320b6&=&format=webp&quality=lossless&width=512&height=154"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "# Feedback Dashboard\n\nBelow you will find information on how to create a feedback on one of our employees. We want you to be 100% **honest and truthful** as making a false bad feedback on an employee may ruin their career. Use the button below and fill out the questions said."
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 9,
+          "components": [
+            { "type": 10, "content": "Leave feedback using the button here:" }
+          ],
+          "accessory": {
+            "type": 2,
+            "style": 2,
+            "label": "Leave Feedback",
+            "custom_id": "feedback:open"
+          }
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665349698621501/TFR_Footer.png?ex=6af1f673&is=6af0a4f3&hm=4bdd638531263d59fa3bc6883f651d6a2222ab59b6840fd669dd3658dd8a4c58&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

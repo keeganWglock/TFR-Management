@@ -1,0 +1,66 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1568683336883241140/1568817313216471110/TFR_careers.png?ex=6af1db3a&is=6af089ba&hm=cf7589f14721fb525f743d700037e99ac46ecdf737eb557bf43c936d4b448ba7&=&format=webp&quality=lossless&width=1024&height=307"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "divider": true,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "# Tampa Fire & Rescue Office of Public Relations\nWelcome to the Office of Public Relations. The Office of Public Relations (OPR) serves as the department’s connection to the community by providing accurate information, managing media relations, and promoting public awareness. The office works to strengthen public trust through community outreach, transparency, and effective communication between the department and the public."
+        },
+        {
+          "type": 14
+        },
+        {
+          "type": 10,
+          "content": "**__Requirements:__**\n- Must have a good quality device\n- Must have prior experience\n- Must be able to be active"
+        },
+        {
+          "type": 1,
+          "components": [
+            {
+              "type": 2,
+              "style": 5,
+              "label": "Public Relations Application",
+              "emoji": {
+                "id": "1564419498285473792",
+                "name": "TFR_PIO",
+                "animated": false
+              },
+              "url": "https://docs.google.com/forms/d/e/1FAIpQLSeFLA9s-KKBlACC23qhmHIdlSbajzXLDVR2cfCwnROZi_XUDw/viewform?usp=publish-editor"
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665349698621501/TFR_Footer.png?ex=6af1f673&is=6af0a4f3&hm=4bdd638531263d59fa3bc6883f651d6a2222ab59b6840fd669dd3658dd8a4c58&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

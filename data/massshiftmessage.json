@@ -1,0 +1,38 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564005370106749068/HCSO_MassShift.png?ex=6adfb102&is=6ade5f82&hm=503c80ef264cee9db81b09735d7097626370a1d565e9d153ed380adbc357d910&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 10,
+          "content": "# Mass Shift\n\n<@&1563753564042436626> We are hosting a mass shift, we encourage all deputies to get in game. We expect to get 3-5 of you in-game, if we get more, bonuses will come out & we will give out special rewards! During this time you are able to receive;\n- Certifications\n- Paycheck Bonuses\n- 1x Quota Exemption\n- Extra Hours added on\n- Promotions\n- Removal of Infractions"
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564006727135924354/z8zyStIfmOEAQAAAABJRU5ErkJggg.png?ex=6adfb245&is=6ade60c5&hm=521a33a4c3b5606e881c76d2c76b4fae7d8442099950070010a4fa83405fa76e&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

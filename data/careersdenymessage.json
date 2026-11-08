@@ -1,0 +1,42 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564005371713167400/HCSO_Careers.png?ex=6adfb102&is=6ade5f82&hm=011e35fb76a3d21284eeb7a57adef67346ab3e59d9fca09f8e462b5c20da18f4&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "# Application Denied\n\nWe are sorry to inform your that your HCSO application has been denied. You are allowed to re-apply in 24 hours starting from when this message was sent.\n\nDenied Reason: {reason}"
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564006727135924354/z8zyStIfmOEAQAAAABJRU5ErkJggg.png?ex=6adfb245&is=6ade60c5&hm=521a33a4c3b5606e881c76d2c76b4fae7d8442099950070010a4fa83405fa76e&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

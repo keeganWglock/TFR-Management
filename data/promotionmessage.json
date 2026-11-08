@@ -1,0 +1,42 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1568683336883241140/1569089734049796236/TFR_promotion.png?ex=6af23030&is=6af0deb0&hm=4f7aeb4e2f4868853ab257446e6425ecea7ecf2b0b9f42ecef4d55016fa2748f&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "\n# Promotion Notice\n\n**Employee:**\n**Reason:**\n**New Rank:**\n**New Callsign:**\n\n-# Signed, {user}"
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665349698621501/TFR_Footer.png?ex=6af1f673&is=6af0a4f3&hm=4bdd638531263d59fa3bc6883f651d6a2222ab59b6840fd669dd3658dd8a4c58&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

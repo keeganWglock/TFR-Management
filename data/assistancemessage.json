@@ -1,0 +1,74 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1568683336883241140/1568738477548380200/TFR_Assistance.png?ex=6af0e90e&is=6aef978e&hm=b7df9ca36a688b316e66a0dc741dd4e4622909130b53c3485cfa06b439450002&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "# Assistance\n\nHere is the panel for Tampa Fire & Rescue assistance. Choose the correct support category for your request: General Support, Internal Affairs Support, Executive Officers, or Department Administrative."
+        },
+        {
+          "type": 1,
+          "components": [
+            {
+              "type": 3,
+              "custom_id": "ticket:type_select",
+              "placeholder": "Choose a support type",
+              "options": [
+                {
+                  "label": "General Support",
+                  "description": "Open a general support ticket",
+                  "value": "general"
+                },
+                {
+                  "label": "Internal Affairs Support",
+                  "description": "Open an internal affairs support ticket",
+                  "value": "internal_affairs"
+                },
+                {
+                  "label": "Executive Officers",
+                  "description": "Open an executive officers support ticket",
+                  "value": "executive_officers"
+                },
+                {
+                  "label": "Department Administrative",
+                  "description": "Open a department administrative support ticket",
+                  "value": "department_administrative"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665349698621501/TFR_Footer.png?ex=6af0a4f3&is=6aef5373&hm=00d5618d62cec92637ffb121887a9faff5f6686d0497b6e56573959254531c07&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

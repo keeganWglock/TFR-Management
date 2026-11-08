@@ -1,0 +1,42 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1517936695226663053/1564005371713167400/HCSO_Careers.png?ex=6adfb102&is=6ade5f82&hm=011e35fb76a3d21284eeb7a57adef67346ab3e59d9fca09f8e462b5c20da18f4&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "# TFR Application\n\nThis application is for Tampa Fire & Rescue. Please read the information carefully before starting the application. Once you begin the DM application process, you will be asked a series of questions to review your experience, availability, and professionalism."
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665349698621501/TFR_Footer.png?ex=6af0a4f3&is=6aef5373&hm=00d5618d62cec92637ffb121887a9faff5f6686d0497b6e56573959254531c07&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

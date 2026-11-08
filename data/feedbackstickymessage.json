@@ -1,0 +1,38 @@
+{
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 9,
+          "components": [
+            {
+              "type": 10,
+              "content": "# Send Feedback\n\nClick the button near to be sent to the feedback dashboard"
+            }
+          ],
+          "accessory": {
+            "type": 2,
+            "style": 5,
+            "label": "Feedback",
+            "url": "https://discord.com/channels/1563765847598571663/1568080563988992071/1569091877230215200"
+          }
+        },
+        {
+          "type": 14
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1567761890048876654/1568665349698621501/TFR_Footer.png?ex=6af0a4f3&is=6aef5373&hm=00d5618d62cec92637ffb121887a9faff5f6686d0497b6e56573959254531c07&=&format=webp&quality=lossless&width=768&height=46"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
