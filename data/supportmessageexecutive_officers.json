@@ -3,7 +3,7 @@
   "components": [
     {
       "type": 10,
-      "content": "{user} <@&1564424983038398504>"
+      "content": "{user} <@&1571646017449889922>"
     },
     {
       "type": 17,
@@ -24,7 +24,7 @@
         },
         {
           "type": 10,
-          "content": "Thank you for opening up a Executive Officers Support Ticket. Please describe the reason for opening up a support ticket. Our Exeucitive Officers are very busy so please be patient and wait.\n\n**Useful Information**\n{Roblox}\n{Robloxid}\n{robloxurl}\n{supportid}"
+          "content": "Thank you for opening up a Internal Affairs Support Ticket. Please follow the following format.\nEmployee\nReason\nProof(required).\n\n**Useful Information**\n{Roblox}\n{Robloxid}\n{robloxurl}\n{supportid}"
         },
         {
           "type": 1,

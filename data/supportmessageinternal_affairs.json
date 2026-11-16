@@ -3,7 +3,7 @@
   "components": [
     {
       "type": 10,
-      "content": "{user} <@&1564102920826257438>"
+      "content": "{user} <@&1564424983038398504>"
     },
     {
       "type": 17,
@@ -24,7 +24,7 @@
         },
         {
           "type": 10,
-          "content": "Thank you for opening up a Internal Affairs Support Ticket. Please describe the issue in detail, include the exact context, and provide any relevant information for the IA team to review.\n\n**Useful Information**\n{Roblox}\n{Robloxid}\n{robloxurl}\n{supportid}"
+          "content": "Thank you for opening up a High Ranking Support Ticket. Please describe the issue in detail, include the exact context, and provide any relevant information for the Supervisory team to review.\n\n**Useful Information**\n{Roblox}\n{Robloxid}\n{robloxurl}\n{supportid}"
         },
         {
           "type": 1,
