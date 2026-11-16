@@ -25,14 +25,12 @@ import {
 import { lookupRoblox } from '../utils/roblox.js';
 
 const general_catagory = '1564432900223533218';
-const internal_affairs_catagory = '1564433221364621365';
-const executive_officers_catagory = '1564433292927963136';
-const department_administrative_catagory = '1564802837366710433';
+const internal_affairs_catagory = '1568771909838176337';
+const executive_officers_catagory = '1564433221364621365';
 const SUPPORT_ROLE_IDS = {
-  general: '1564424983713808445',
-  internal_affairs: '1564102920826257438',
-  executive_officers: '1564424983038398504',
-  department_administrative: '1564424982463914105',
+  general: '1564099549533048852',
+  internal_affairs: '1564099556290068490',
+  executive_officers: '1571646017449889922',
 };
 const TICKET_LOG_CHANNEL_ID = '1565490837645951037';
 const DELETE_DELAY_MS = 5000;
@@ -43,7 +41,6 @@ const SUPPORT_FILES = {
   hr: 'supportmessagehr.json',
   internal_affairs: 'supportmessageinternal_affairs.json',
   executive_officers: 'supportmessageexecutive_officers.json',
-  department_administrative: 'supportmessagedepartment_administrative.json',
 };
 
 const isValidId = (id) => /^\d{17,20}$/.test(id);
@@ -57,11 +54,9 @@ export function getAssistanceCategoryId(kind = 'general') {
       ? internal_affairs_catagory
       : ['executiveofficers', 'executiveofficer', 'executive', 'executiveofficeresupport'].includes(normalized)
         ? executive_officers_catagory
-        : ['departmentadministrative', 'departmentadmin', 'deptadmin', 'administrative', 'departmentadministrativesupport'].includes(normalized)
-          ? department_administrative_catagory
-          : general_catagory;
+        : general_catagory;
 
-  if (!categoryId || categoryId === 'YOUR_GENERAL_CATEGORY_ID' || categoryId === 'YOUR_INTERNAL_AFFAIRS_CATEGORY_ID' || categoryId === 'YOUR_EXECUTIVE_OFFICERS_CATEGORY_ID' || categoryId === 'YOUR_DEPARTMENT_ADMINISTRATIVE_CATEGORY_ID') {
+  if (!categoryId || categoryId === 'YOUR_GENERAL_CATEGORY_ID' || categoryId === 'YOUR_INTERNAL_AFFAIRS_CATEGORY_ID' || categoryId === 'YOUR_EXECUTIVE_OFFICERS_CATEGORY_ID') {
     throw new Error('No assistance ticket category is configured in assistance.js. Set the category IDs for each assistance path.');
   }
 
@@ -78,9 +73,8 @@ export function resolveTicketCategoryId(kind = 'general') {
   if (['general', 'support', 'default'].includes(normalized)) return general_catagory;
   if (['internalaffairs', 'ia', 'internalaffairssupport', 'internalaffairsupport'].includes(normalized)) return internal_affairs_catagory;
   if (['executiveofficers', 'executiveofficer', 'executive'].includes(normalized)) return executive_officers_catagory;
-  if (['departmentadministrative', 'departmentadmin', 'deptadmin', 'administrative'].includes(normalized)) return department_administrative_catagory;
 
-  return general_catagory || internal_affairs_catagory || executive_officers_catagory || department_administrative_catagory;
+  return general_catagory || internal_affairs_catagory || executive_officers_catagory;
 }
 
 function ticketInfo(channel) {
@@ -312,9 +306,8 @@ export function buildSupportSelectMenu() {
       .setPlaceholder('Select support type')
       .addOptions(
         { label: 'General Support', description: 'Open a general support ticket', value: 'general' },
-        { label: 'Internal Affairs Support', description: 'Open an internal affairs support ticket', value: 'internal_affairs' },
-        { label: 'Executive Officers', description: 'Open an executive officers support ticket', value: 'executive_officers' },
-        { label: 'Department Administrative', description: 'Open a department administrative support ticket', value: 'department_administrative' },
+        { label: 'High Ranking Support', description: 'Open a high-ranking support ticket', value: 'internal_affairs' },
+        { label: 'Internal Affairs Support', description: 'Open an internal affairs support ticket', value: 'executive_officers' },
       ),
   );
 }
@@ -324,7 +317,6 @@ export async function handleButton(interaction) {
   if (interaction.customId === 'ticket:create' || interaction.customId === 'ticket:create:general') return createTicket(interaction, 'general');
   if (interaction.customId === 'ticket:create:internal_affairs' || interaction.customId === 'ticket:create:internalaffairs' || interaction.customId === 'ticket:create:ia') return createTicket(interaction, 'internal_affairs');
   if (interaction.customId === 'ticket:create:executive_officers' || interaction.customId === 'ticket:create:executiveofficers') return createTicket(interaction, 'executive_officers');
-  if (interaction.customId === 'ticket:create:department_administrative' || interaction.customId === 'ticket:create:departmentadministrative' || interaction.customId === 'ticket:create:department_admin') return createTicket(interaction, 'department_administrative');
   if (interaction.customId === 'ticket:type_select' && interaction.values?.length) return createTicket(interaction, interaction.values[0]);
   if (interaction.customId === 'ticket:claim') return claimTicket(interaction);
   if (interaction.customId === 'ticket:close') return closeTicket(interaction);

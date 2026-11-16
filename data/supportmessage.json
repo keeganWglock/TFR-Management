@@ -3,7 +3,7 @@
   "components": [
     {
       "type": 10,
-      "content": "{user} {support}"
+      "content": "{user} "
     },
     {
       "type": 17,
@@ -24,7 +24,7 @@
         },
         {
           "type": 10,
-          "content": "Thank you for opening up a support ticket. While we wait for you to connect with one of our support members. Please go ahead and state your concern(s). For any reporting of a Florida Department of Transportation Employee please go to the Florida Department Hub via the main server.\n\n**Useful Information**\n{Roblox}\n{Robloxid}\n{robloxurl}\n{supportid}"
+          "content": "Thank you for opening up a support ticket. While we wait for you to connect with one of our support members. Please go ahead and state your concern(s). For any reporting of a TFR Employee, please go to the Florida Department Hub via the main server.\n\n**Useful Information**\n{Roblox}\n{Robloxid}\n{robloxurl}\n{supportid}"
         },
         {
           "type": 1,

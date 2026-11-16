@@ -20,7 +20,7 @@
         },
         {
           "type": 10,
-          "content": "# Assistance\n\nHere is the panel for Tampa Fire & Rescue assistance. Choose the correct support category for your request: General Support, Internal Affairs Support, Executive Officers, or Department Administrative."
+          "content": "# Assistance\n\nHere is the panel for Tampa Fire & Rescue assistance. Choose the correct support category for your request: General Support, High Ranking Support, or Internal Affairs Support."
         },
         {
           "type": 1,
@@ -36,19 +36,14 @@
                   "value": "general"
                 },
                 {
-                  "label": "Internal Affairs Support",
-                  "description": "Open an internal affairs support ticket",
+                  "label": "High Ranking Support",
+                  "description": "Open a high-ranking support ticket",
                   "value": "internal_affairs"
                 },
                 {
-                  "label": "Executive Officers",
-                  "description": "Open an executive officers support ticket",
+                  "label": "Internal Affairs Support",
+                  "description": "Open an internal affairs support ticket",
                   "value": "executive_officers"
-                },
-                {
-                  "label": "Department Administrative",
-                  "description": "Open a department administrative support ticket",
-                  "value": "department_administrative"
                 }
               ]
             }
